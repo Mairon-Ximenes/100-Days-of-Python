@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="NYD_jtZF6lURx0A8JNoe">
+    <mxGraphModel dx="983" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-9" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XKuW6iRZ_Cv5xbqWc9Ad-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="50" width="107" x="353" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-10" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XKuW6iRZ_Cv5xbqWc9Ad-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Show the logo" vertex="1">
+          <mxGeometry height="50" width="107" x="353" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-11" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XKuW6iRZ_Cv5xbqWc9Ad-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ask for name input" vertex="1">
+          <mxGeometry height="50" width="107" x="353" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-12" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XKuW6iRZ_Cv5xbqWc9Ad-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ask for bid input" vertex="1">
+          <mxGeometry height="50" width="107" x="353" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-13" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XKuW6iRZ_Cv5xbqWc9Ad-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Add the name and bid in the dictionary as key and value" vertex="1">
+          <mxGeometry height="60" width="147" x="333" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-16" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XKuW6iRZ_Cv5xbqWc9Ad-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-21" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="XKuW6iRZ_Cv5xbqWc9Ad-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Ask if there is any other&lt;div&gt;&amp;nbsp;user that wants to bid&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="223.5" x="294.75" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="40" x="270" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-18" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="XKuW6iRZ_Cv5xbqWc9Ad-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Clear the terminal" vertex="1">
+          <mxGeometry height="60" width="120" x="168" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="40" x="500" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-23" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XKuW6iRZ_Cv5xbqWc9Ad-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Calculate who has the biggest bid&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and declare him as the winner&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="161.75" x="518.25" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-25" edge="1" parent="1" source="XKuW6iRZ_Cv5xbqWc9Ad-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XKuW6iRZ_Cv5xbqWc9Ad-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Print the name and the bid of the winner" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="XKuW6iRZ_Cv5xbqWc9Ad-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="790" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
