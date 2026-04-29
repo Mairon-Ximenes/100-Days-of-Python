@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="WTc92D78jikiBkBiKpK9">
+    <mxGraphModel dx="1768" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IOCwpFVQVlad6mnt72W1-4" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-8" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-10" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="ASK IF THE USER WANTS&amp;nbsp;&lt;div&gt;TO PLAY BLACKJACK&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="40" x="480" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="40" x="220" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="END OF THE PROGRAM" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-13" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CLEAR TERMINAL" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-15" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SHOWS THE ART LOGO" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-17" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="240" />
+              <mxPoint x="1160" y="300" />
+              <mxPoint x="570" y="300" />
+              <mxPoint x="570" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PASS THROUGH THE LIST OF CARDS AND SELECT TWO OF THEM" vertex="1">
+          <mxGeometry height="80" width="150" x="990" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-19" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PASS THROUGH THE LIST OF CARDS AND SELECT TWO OF THEM FOR THE USER AND TWO FOR THE COMPUTER" vertex="1">
+          <mxGeometry height="100" width="200" x="600" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-37" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SHOWS THE USER HANDS AND THE COMPUTER FIRST CARD" vertex="1">
+          <mxGeometry height="80" width="150" x="840" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-26" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-49" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="ASK IF THE USER&amp;nbsp;&lt;div&gt;WANTS TO GET&amp;nbsp;&lt;/div&gt;&lt;div&gt;ANOTHER CARD&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="810" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="780" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="980" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-30" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SELECT ONE MORE CARD AND ADD TO THE USER HAND" vertex="1">
+          <mxGeometry height="80" width="150" x="430" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-44" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="725" />
+              <mxPoint x="360" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-45" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-29" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="MAKE THE CALCULUS&lt;div&gt;&amp;nbsp;TO SEE IF THE SUM OF THE HANDS PASS ABOVE 21&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="230" x="390" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-34" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-38" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="THE RESULT OF THE SUM IS 21" vertex="1">
+          <mxGeometry height="180" width="240" x="1080" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="1280" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-36" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOCwpFVQVlad6mnt72W1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BLACKJACK!" vertex="1">
+          <mxGeometry height="80" width="150" x="1390" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-39" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1790" y="480" />
+              <mxPoint x="1790" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="YOU WIN!!" vertex="1">
+          <mxGeometry height="80" width="150" x="1600" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="1060" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-47" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="725" />
+              <mxPoint x="960" y="850" />
+              <mxPoint x="50" y="850" />
+              <mxPoint x="50" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="YOU LOSE!" vertex="1">
+          <mxGeometry height="80" width="150" x="770" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-51" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SUM BOTH HANDS (USER AND THE COMPUTER) AND SEE WHICH IS CLOSER TO 21" vertex="1">
+          <mxGeometry height="80" width="150" x="1125" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-55" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-50" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="IF THE USER HAND IS CLOSER TO 21" vertex="1">
+          <mxGeometry height="160" width="180" x="1320" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="1290" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-53" edge="1" parent="1" source="IOCwpFVQVlad6mnt72W1-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IOCwpFVQVlad6mnt72W1-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="800" />
+              <mxPoint x="1010" y="665" />
+              <mxPoint x="845" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOCwpFVQVlad6mnt72W1-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="1470" y="760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
