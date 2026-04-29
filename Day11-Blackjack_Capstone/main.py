@@ -17,8 +17,6 @@ def check_result(u_hand: list[int], c_hand: list[int]):
     """Return the result of the program"""
     user_sum = sum(u_hand)
     comp_sum = sum(c_hand)
-    len(c_hand)
-    len(u_hand)
 
     # Blackjack?
     if (user_sum == 21 and len(u_hand) == 2) and (comp_sum == 21 and len(c_hand) == 2):
