@@ -20,6 +20,14 @@ def check_result(u_hand: list[int], c_hand: list[int]):
     len(c_hand)
     len(u_hand)
 
+    # Blackjack?
+    if (user_sum == 21 and len(u_hand) == 2) and (comp_sum == 21 and len(c_hand) == 2):
+        return "That's a draw!! (Double Blackjack)"
+    if user_sum == 21 and len(u_hand) == 2:
+        return 'Win with a Blackjack!'
+    if comp_sum == 21 and len(c_hand) == 2:
+        return 'Lose, computer has a Blackjack!'
+
     # Checking if the user burst
     if user_sum > 21:
         return 'You went over. You lose...'
@@ -28,13 +36,6 @@ def check_result(u_hand: list[int], c_hand: list[int]):
     if comp_sum > 21:
         return 'The computer went over. You win!'
 
-    # Blackjack?
-    if (user_sum == 21 and len(u_hand) == 2) and (comp_sum == 21 and len(c_hand) == 2):
-        return "That's a draw!! (Double Blackjack)"
-    if user_sum == 21 and len(u_hand) == 2:
-        return 'Win with a Blackjack!'
-    if comp_sum == 21 and len(c_hand) == 2:
-        return 'Lose, computer has a Blackjack!'
 
     # Comparison between the final points (No one burst)
     if user_sum > comp_sum:
@@ -61,7 +62,7 @@ while repeat:
 
     check_11(user_hand)
 
-    # Continua rodando até a soma ser menor que 21
+    # Continua rodando at� a soma ser menor que 21
     while sum(user_hand) < 21:
         print(f'Your cards: {user_hand}, current score: {sum(user_hand)}')
         print(f"Computer's first card: {computer_hand[0]}")
