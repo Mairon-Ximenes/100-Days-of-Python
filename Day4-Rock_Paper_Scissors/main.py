@@ -31,7 +31,7 @@ options = [rock, paper, scissors]
 print('What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.')
 choice = int(input())
 
-if choice >= 3 or choice <= 0:
+if choice >= 3 or choice < 0:
     print('Invalid values')
 else:
     print(options[choice])
