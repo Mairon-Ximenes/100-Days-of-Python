@@ -2,7 +2,7 @@ import turtle
 from operator import length_hint
 from turtle import Screen
 from turtle import Turtle
-from paddle1 import Paddle
+from paddle import Paddle
 
 def main():
     screen = Screen()
@@ -10,14 +10,18 @@ def main():
     screen.bgcolor("black")
     screen.tracer(0)
 
-    paddle1 = Paddle()
+    r_paddle = Paddle((350, 0))
+    l_paddle = Paddle((-350, 0))
 
     screen.listen()
     
-    screen.onkey(paddle1.move_up, "Up")
-    screen.onkey(paddle1.move_down, "Down")
+    screen.onkey(r_paddle.move_up, "Up")
+    screen.onkey(r_paddle.move_down, "Down")
+    screen.onkey(l_paddle.move_up, "w")
+    screen.onkey(l_paddle.move_down, "s")
 
-    while True:
+    game_is_on = True
+    while game_is_on:
         screen.update()
 
 
