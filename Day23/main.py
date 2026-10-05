@@ -1,5 +1,4 @@
 import time
-import random
 from turtle import Screen
 
 from Day23 import scoreboard
@@ -19,13 +18,15 @@ def main():
     screen.listen()
 
     screen.onkey(player.move, "Up")
+    counter = 0
     game_is_on = True
     while game_is_on:
         time.sleep(0.1)
         screen.update()
-        num = random.randint(-10, 1)
-        if num >= 0:
+
+        if counter == 6:
             car_manager.create_car()
+            counter = 0
         car_manager.move_cars()
 
         if car_manager.check_colision(player):
@@ -39,6 +40,8 @@ def main():
             player.reset()
             scoreboard.update_scoreboard()
             car_manager.level_up()
+
+        counter += 1
 
 
 

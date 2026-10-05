@@ -20,7 +20,7 @@ class CarManager:
         car.color(random.choice(COLORS))
         car.shapesize(stretch_len=2, stretch_wid=1)
 
-        car.y = random.randint(-270, 250)
+        car.y = random.randint(-250, 250)
         car.goto(300, car.y)
         self.cars.append(car)
 
@@ -39,7 +39,3 @@ class CarManager:
 
     def level_up(self):
         self.increase_speed()
-        for car in self.cars:
-            car.hideturtle()
-
-        self.cars.clear()
