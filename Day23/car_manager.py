@@ -24,12 +24,6 @@ class CarManager:
         car.goto(300, car.y)
         self.cars.append(car)
 
-    def check_colision(self, player: Player):
-        for car in self.cars:
-            if car.distance(player) <= 25:
-                return True
-        return False
-
     def move_cars(self):
         for car in self.cars:
             car.goto(car.xcor() - self.move_distance, car.ycor())
