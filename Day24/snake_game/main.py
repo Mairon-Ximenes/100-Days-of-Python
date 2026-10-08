@@ -29,7 +29,7 @@ def main():
 
         #Detect colision with food
         if snake.head.distance(food) < 15:
-            food.refresh()
+            food.refresh ()
             snake.extend()
             scoreboard.increase_score()
 
@@ -43,6 +43,7 @@ def main():
             if snake.head.distance(segment) < 10:
                 scoreboard.reset()
                 snake.reset()
+
 
 
     screen.exitonclick()
