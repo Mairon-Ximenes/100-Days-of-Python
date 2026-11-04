@@ -36,9 +36,12 @@ def main():
 
         answer_state: str = str(screen.textinput(title=f"{num_states_guessed}/{TOTAL_STATES} States Corr ", prompt="What's another state's name?")).lower()
         time.sleep(0.7)
-        print(answer_state)
 
         if answer_state == "exit":
+            states = list(data['state'])
+            missing_states = [state for state in states if state not in states_guessed]
+            missing_states = pandas.DataFrame(missing_states)
+            missing_states.to_csv("missing_states.csv", index=False)
             break
 
         if answer_state in states and answer_state not in states_guessed:
@@ -46,10 +49,8 @@ def main():
             if " Do " in answer_state:
                 answer_state = answer_state.replace(" Do ", " do ")
 
-                print(answer_state)  # Resultado: Mato Grosso do Sul
             if " De " in answer_state:
                 answer_state = answer_state.replace(" De ", " de ")
-                print(answer_state)  # Resultado: Mato Grosso do Sul
 
             num_states_guessed += 1
             states_guessed.append(answer_state)
@@ -58,16 +59,6 @@ def main():
             writer.write(state_data.state.item())
         screen.update()
 
-    if num_states_guessed < 27:
-        states_guessed = {
-            'state': states_guessed
-        }
-        print(states_guessed)
-        data_states_guessed = pandas.DataFrame(states_guessed)
-        print(data_states_guessed)
-        states = list(data['state'])
-        missing_states = data[~data['state'].isin(data_states_guessed['state'])]
-        missing_states.to_csv('missing_states.csv', index=False)
 
 if __name__ == "__main__":
     main()
